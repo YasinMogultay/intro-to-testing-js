@@ -6,3 +6,11 @@ function helloWorld() {
 function sayHello(input){
     return ("Hello, " + input + "!");
 }
+
+function isFive(input){
+    return input;
+}
+
+function isEven () {
+    return;
+}

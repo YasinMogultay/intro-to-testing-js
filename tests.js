@@ -30,4 +30,16 @@ describe('sayHello', function() {
     });
 });
 
+describe('isFive', function (){
+    it('should return a string when called', function() {
+        expect(typeof isFive()).toBe("boolean");
+    });
+});
+
+describe('isEven', function (){
+    it('should return a integer when called', function() {
+        expect(typeof isEven()).toBe("integer");
+    });
+});
+
 
