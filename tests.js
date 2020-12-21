@@ -35,7 +35,7 @@ describe('isFive', function (){
         expect(typeof isFive).toBe("function");
     });
     it('should return a number when called', function () {
-        expect(typeof parseInt(isFive())).toBe("number")
+        expect(typeof parseInt(isFive())).toBe("number");
     });
 });
 
@@ -44,10 +44,10 @@ describe("isEven", function () {
         expect(typeof isEven).toBe("function");
     });
     it('should return a boolean when called', function () {
-        expect(typeof isEven()).toBe("boolean")
+        expect(typeof isEven()).toBe("boolean");
     });
     it('should return a even number when called', function () {
-        expect(isEven(4)).toBe(true)
+        expect(isEven(4)).toBe(true);
     });
 });
 
@@ -56,9 +56,19 @@ describe("isVowel", function (){
         expect (typeof isVowel).toBe("function");
     });
     it('should be a vowel character when called ', function () {
-        expect(isVowel("a")).toBe(true)
+        expect(isVowel("a")).toBe(true);
     });
 });
+
+describe("add", function (){
+    it('should be a defined function', function () {
+        expect (typeof add).toBe("function");
+    });
+    it('should return sum of two numbers when called ', function () {
+        expect(add("5",6)).toBe(11);
+    });
+});
+
 
 
 

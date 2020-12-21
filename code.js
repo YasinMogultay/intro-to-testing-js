@@ -1,4 +1,3 @@
-// helloWorld function 
 function helloWorld() {
     return "Hello, World!";
 }
@@ -21,4 +20,8 @@ function isVowel(vowel) {
            vowel.toLowerCase() === "e" ||
            vowel.toLowerCase() === "o" ||
            vowel.toLowerCase() === "u";
+}
+
+function add(a, b) {
+    return  parseInt(a) + parseInt(b);
 }
