@@ -31,15 +31,14 @@ describe('sayHello', function() {
 });
 
 describe('isFive', function (){
-    it('should return a string when called', function() {
-        expect(typeof isFive()).toBe("boolean");
+    it('should be a defined function', function() {
+        expect(typeof isFive).toBe("function");
+    });
+    it('should return a number when called', function () {
+        expect(typeof parseInt(isFive())).toBe("number")
     });
 });
 
-describe('isEven', function (){
-    it('should return a integer when called', function() {
-        expect(typeof isEven()).toBe("integer");
-    });
-});
+
 
 

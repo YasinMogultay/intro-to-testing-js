@@ -7,10 +7,6 @@ function sayHello(input){
     return ("Hello, " + input + "!");
 }
 
-function isFive(input){
-    return input;
-}
-
-function isEven () {
-    return;
+function isFive(){
+    return "5";
 }
