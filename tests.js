@@ -51,5 +51,14 @@ describe("isEven", function () {
     });
 });
 
+describe("isVowel", function (){
+    it('should be a defined function', function () {
+        expect (typeof isVowel).toBe("function");
+    });
+    it('should be a vowel character when called ', function () {
+        expect(isVowel("a")).toBe(true)
+    });
+});
+
 
 

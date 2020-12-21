@@ -14,3 +14,11 @@ function isFive(){
 function isEven(number){
     return number % 2  === 0;
 }
+
+function isVowel(vowel) {
+    return vowel.toLowerCase() === "i" ||
+           vowel.toLowerCase() === "a" ||
+           vowel.toLowerCase() === "e" ||
+           vowel.toLowerCase() === "o" ||
+           vowel.toLowerCase() === "u";
+}
